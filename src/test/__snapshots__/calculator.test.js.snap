@@ -1,0 +1,15 @@
+exports[`Calculator component should render snapshot 1`] = `
+<form>
+  <input
+    defaultValue={0}
+    type="number" />
+  <input
+    defaultValue={0}
+    type="number" />
+  <button
+    onClick={[Function]}
+    type="button" />
+  <p
+    className="result" />
+</form>
+`;
