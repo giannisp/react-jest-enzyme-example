@@ -1,15 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`Calculator component should render snapshot 1`] = `
 <form>
   <input
     defaultValue={0}
-    type="number" />
+    type="number"
+  />
   <input
     defaultValue={0}
-    type="number" />
+    type="number"
+  />
   <button
     onClick={[Function]}
-    type="button" />
+    type="button"
+  />
   <p
-    className="result" />
+    className="result"
+  />
 </form>
 `;
