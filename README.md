@@ -5,7 +5,7 @@ This is an example minimal configuration for testing [React](https://facebook.gi
 ## Features
 
 - React 15.4.x
-- Jest 18.x
+- Jest 19.x
 - Enzyme 2.x
 - Babel 6.x
 - ESLint support
