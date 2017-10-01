@@ -44,8 +44,8 @@ describe('Calculator component', () => {
 
     const form = calculator.find('form');
 
-    form.childAt(0).node.value = 3;
-    form.childAt(1).node.value = 5;
+    form.childAt(0).instance().value = 3;
+    form.childAt(1).instance().value = 5;
     form.find('button').simulate('click');
 
     const result = calculator.find('.result');
