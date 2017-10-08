@@ -32,6 +32,9 @@
   "jest": {
     "rootDir": "src/test",
     "testRegex": "/src/test/.*test\\.js$",
-    "setupFiles": ["<rootDir>/polyfills.js", "<rootDir>/setup.js"]
+    "setupFiles": [
+      "<rootDir>/polyfills.js",
+      "<rootDir>/setup.js"
+    ]
   }
 }
