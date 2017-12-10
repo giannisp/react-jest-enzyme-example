@@ -10,7 +10,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": "8.9.0"
+    "node": "8.9.3"
   },
   "dependencies": {
     "react": "^16.0.0",
