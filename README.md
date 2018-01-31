@@ -5,7 +5,7 @@
 - Jest 21.x
 - Enzyme 3.x
 - Babel 6.x
-- ESLint supports
+- ESLint support
 
 ## Install
 
