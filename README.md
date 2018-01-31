@@ -1,5 +1,4 @@
 # react-jest-enzyme-example
-# Daniel Zarate
 This is an example minimal configuration for testing [React](https://facebook.github.io/react/) with [Jest](https://facebook.github.io/jest/) and [Enzyme](https://github.com/airbnb/enzyme).
 
 ## Features
