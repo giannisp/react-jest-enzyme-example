@@ -1,0 +1,6 @@
+pipeline:
+  run-tests:
+    image: node:8.9.0
+    commands:
+      - npm i
+      - npm test
