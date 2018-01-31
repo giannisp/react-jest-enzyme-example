@@ -1,5 +1,4 @@
 ## Features
-
 - React 16.x
 - Jest 21.x
 - Enzyme 3.x
