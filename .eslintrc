@@ -19,6 +19,6 @@
     "semi": ["error", "always"],
     "no-cond-assign": ["error", "always"],
     "no-unused-vars": ["error", {"argsIgnorePattern": "next"}],
-    "no-console": "off",
+    "no-console": "off"
   }
 }
