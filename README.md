@@ -12,7 +12,7 @@ This is an example minimal configuration for testing [React](https://facebook.gi
 
 ## Install
 
-It's recommended to use NodeJS 8.10.x.
+It's recommended to use NodeJS 8.11.x.
 
 `npm install`
 
