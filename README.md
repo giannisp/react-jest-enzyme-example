@@ -4,11 +4,11 @@ This is an example minimal configuration for testing [React](https://facebook.gi
 
 ## Features
 
-- React 16.x
-- Jest 24.x
-- Enzyme 3.x
-- Babel 7.x
-- ESLint support
+-   React 16.x
+-   Jest 24.x
+-   Enzyme 3.x
+-   Babel 7.x
+-   ESLint support
 
 ## Install
 

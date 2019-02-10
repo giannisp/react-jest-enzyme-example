@@ -1,5 +1,5 @@
 /**
- * @fileOverview: Test suite for the Calculator component.
+ * @file Test suite for the Calculator component.
  */
 
 import React from 'react';
@@ -10,9 +10,7 @@ import Calculator from '../components/calculator';
 
 describe('Calculator component', () => {
   it('should render snapshot', () => {
-    const component = renderer.create(
-      <Calculator />
-    );
+    const component = renderer.create(<Calculator />);
 
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
@@ -21,14 +19,12 @@ describe('Calculator component', () => {
   it('should return the correct sum', () => {
     const calculator = new Calculator();
 
-    const sum = calculator._getSum(3, 5);
+    const sum = calculator.getSum(3, 5);
     expect(sum).toEqual(8);
   });
 
   it('should render required form elements', () => {
-    const calculator = shallow(
-      <Calculator />
-    );
+    const calculator = shallow(<Calculator />);
 
     const form = calculator.find('form');
     expect(form.length).toBe(1);
@@ -38,9 +34,7 @@ describe('Calculator component', () => {
   });
 
   it('should display the result on add', () => {
-    const calculator = mount(
-      <Calculator />
-    );
+    const calculator = mount(<Calculator />);
 
     const form = calculator.find('form');
 

@@ -1,24 +1,15 @@
 {
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "plugins": ["babel"],
+  "parser": "babel-eslint",
   "env": {
-    "node": true,
     "browser": true
   },
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
-  "plugins": ["react"],
   "rules": {
-    "indent": ["error", 2],
-    "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "single"],
-    "semi": ["error", "always"],
-    "no-cond-assign": ["error", "always"],
-    "no-unused-vars": ["error", {"argsIgnorePattern": "next"}],
-    "no-console": "off"
+    "arrow-body-style": 0,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "react/jsx-filename-extension": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/require-default-props": 0
   }
 }
