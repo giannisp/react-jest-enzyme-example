@@ -6,7 +6,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { mount, shallow } from 'enzyme';
 
-import Calculator from '../components/calculator';
+import Calculator, { getSum } from '../components/calculator';
 
 describe('Calculator component', () => {
   it('should render snapshot', () => {
@@ -17,9 +17,7 @@ describe('Calculator component', () => {
   });
 
   it('should return the correct sum', () => {
-    const calculator = new Calculator();
-
-    const sum = calculator.getSum(3, 5);
+    const sum = getSum(3, 5);
     expect(sum).toEqual(8);
   });
 
