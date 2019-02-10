@@ -5,14 +5,14 @@ This is an example minimal configuration for testing [React](https://facebook.gi
 ## Features
 
 - React 16.x
-- Jest 21.x
+- Jest 24.x
 - Enzyme 3.x
-- Babel 6.x
+- Babel 7.x
 - ESLint support
 
 ## Install
 
-It's recommended to use NodeJS 8.11.x.
+It's recommended to use NodeJS 10.x.
 
 `npm install`
 
