@@ -1,5 +1,5 @@
 /**
- * @fileOverview Tests setup.
+ * @file Tests setup.
  */
 
 import '@babel/polyfill';
