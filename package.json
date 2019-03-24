@@ -4,7 +4,7 @@
   "description": "Testing react components with jest and enzyme",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest",
     "eslint": "node node_modules/eslint/bin/eslint.js src"
   },
   "author": "IP",
