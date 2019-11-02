@@ -11,7 +11,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": "10.15.1"
+    "node": "12.13.0"
   },
   "dependencies": {
     "react": "^16.9.0",
