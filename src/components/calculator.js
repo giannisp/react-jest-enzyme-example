@@ -26,7 +26,7 @@ const Calculator = () => {
     <form>
       <input type="number" defaultValue={0} ref={inputValueOne} />
       <input type="number" defaultValue={0} ref={inputValueTwo} />
-      <button type="button" onClick={add} />
+      <button type="button" onClick={add} aria-label="Add" />
       <p className="result">{sum}</p>
     </form>
   );
