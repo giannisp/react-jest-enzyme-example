@@ -11,6 +11,7 @@ exports[`Calculator component should render snapshot 1`] = `
     type="number"
   />
   <button
+    aria-label="Add"
     onClick={[Function]}
     type="button"
   />
